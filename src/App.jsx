@@ -800,13 +800,16 @@ function App() {
 
           <div className="author-card">
             <div className="author-photo">
-              <img
+             <img
   src={`${import.meta.env.BASE_URL}author.jpg`}
   alt="Manjunath Goni, creator of JavaPath"
+  style={{ width: "100%", height: "100%", objectFit: "cover" }}
   onError={(event) => {
+    console.error("Author photo failed to load:", event.currentTarget.src);
     event.currentTarget.style.display = "none";
     event.currentTarget.nextElementSibling.style.display = "flex";
   }}
+/>
 />
               />
               <span className="author-initials">M</span>
