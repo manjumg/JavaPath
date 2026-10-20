@@ -801,12 +801,13 @@ function App() {
           <div className="author-card">
             <div className="author-photo">
               <img
-                src="/author.jpg"
-                alt="Manjunath, creator of JavaPath"
-                onError={(event) => {
-                  event.currentTarget.style.display = "none";
-                  event.currentTarget.nextElementSibling.style.display = "flex";
-                }}
+  src={`${import.meta.env.BASE_URL}author.jpg`}
+  alt="Manjunath Goni, creator of JavaPath"
+  onError={(event) => {
+    event.currentTarget.style.display = "none";
+    event.currentTarget.nextElementSibling.style.display = "flex";
+  }}
+/>
               />
               <span className="author-initials">M</span>
             </div>
