@@ -118,7 +118,7 @@ The goal of JavaPath is to make Java learning and interview preparation simpler,
 
 ## 👨‍💻 Author
 
-**Manjunath**
+**Manjunath Goni**
 
 Java Full Stack Developer | Java Learner | Web Developer
 
