@@ -810,8 +810,8 @@ function App() {
     event.currentTarget.nextElementSibling.style.display = "flex";
   }}
 />
-/>
-              />
+
+              
               <span className="author-initials">M</span>
             </div>
 
